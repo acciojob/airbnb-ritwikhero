@@ -9,6 +9,9 @@ Note :
 
 Don’t change the existing code
 Use Hashmaps as a database.
+
 Use the models as it is and don’t change any attributes in the same.
+
 Incase the @Autowired Annotation does not work in connecting the different layers (controller, service and repository) please create the objects using the new keyword For Eg UserService userService = new UserService(); instead of doing @Autowired annotation
+
 Don’t use the lombok library and its annotations
